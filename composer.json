@@ -1,1 +1,53 @@
-
+{
+	"name": "mohamedkassemofficial/dry",
+	"description": "Set of codes based on php and JavaScript helpful to create web application environment",
+	"keywords": [
+		"PHP",
+		"JavaScript",
+		"dry"
+	],
+	"homepage": "https://github.com/mohamedkassemofficial/dry",
+	"type": "library",
+	"license": "Apache License 2.0",
+	"authors": [
+		{
+			"name": "Mohamed Kassem",
+			"homepage": "https://mohamedkassem.com"
+		}
+	],
+	"scripts": {
+		"check": [
+			"",
+			"",
+			""
+		],
+		"fix": [
+			""
+		],
+		"versions": [
+			""
+		]
+	},
+	"require": {
+		"php": "^7.2||^8.0",
+		"zenorocha/clipboardjs": "^0.0"
+	},
+	"require-dev": {
+		"tecnickcom/tcpdf": "^6.3"
+	},
+	"suggest": {
+		"tecnickcom/tcpdf": "Option for rendering PDF with PDF Writer (doesn't yet support PHP8)",
+		"ckeditor/ckeditor": "Option for edit rich text",
+		"nnnick/chartjs": "Option for create charts"
+	},
+	"autoload": {
+		"psr-4": {
+			"mohamedkassemofficial\\dry\\": "src/dry.php"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"mohamedkassemofficial\\dry\\": "workspace"
+		}
+	}
+}
